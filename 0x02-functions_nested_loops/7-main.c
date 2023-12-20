@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -15,3 +16,23 @@ int main(void)  { int r;
 }
 
 
+=======
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    int r;
+
+	    print_last_digit(98);
+	    print_last_digit(0);
+	    r = print_last_digit(-1024);
+	    _putchar('0' + r);
+	    _putchar('\n');
+	    return (0);
+}
+>>>>>>> 6bab29a208bc5cec518596b13f72f576ce8fd586
