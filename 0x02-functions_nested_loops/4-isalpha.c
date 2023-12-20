@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -10,16 +9,3 @@ int _isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
-=======
-#include "main.h"
-
-/**
-* _isalpha - checks for alphabetic character
-* @c: the character to be checked
-* Return: 1 if c is a letter, 0 otherwise
-*/
-int _isalpha(int c)
-{
-return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
-}
->>>>>>> 6bab29a208bc5cec518596b13f72f576ce8fd586
