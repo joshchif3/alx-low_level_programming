@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * dlistint_len -
- * @h:
+ * dlistint_len - to bring
+ * @h: to show
  * Return: num of nodes.
  **/
 size_t dlistint_len(const dlistint_t *h)
