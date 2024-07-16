@@ -1,14 +1,14 @@
 #include "search_algos.h"
 #include <math.h>
+#include <stdio.h>
 
 /**
- * jump_list - searches for a value in an array of
- * integers using the Jump search algorithm
+ * jump_list - Searches for a value in a sorted singly linked list using jump search
+ * @list: Pointer to the head of the list
+ * @size: The number of nodes in the list
+ * @value: The value to search for
  *
- * @list: input list
- * @size: size of the array
- * @value: value to search in
- * Return: index of the number
+ * Return: Pointer to the first node where value is located, or NULL if not found
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
